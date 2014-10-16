@@ -8,4 +8,10 @@ class Main
   Aoife = Manager.new 'Aoife', 666, 50, 12, 100
   puts John.to_s
   puts Aoife.to_s
+
+  if John == Aoife
+    puts 'John = Aoife'
+  else
+    puts 'John != Aoife'
+  end
 end
